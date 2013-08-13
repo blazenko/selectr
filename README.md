@@ -1,6 +1,6 @@
 selectr
 =============
 
-jQuery plugin that turns &lt;select&gt; elms into styleable dropdowns
+jQuery plugin that turns &lt;select&gt; elements into styleable dropdowns.
 
 

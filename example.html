@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+    <title>slectr example</title>
+	
+	<link rel="stylesheet" href="example.css"/>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="jquery.selectr.js"></script>
+	
+<script>
+	
+	$(function() {
+		
+		enableSelectBoxes();
+		
+	});
+	
+	
+	
+	
+</script>
+	
+</head>
+<body>
+
+
+
+    
+<form>
+	
+	<select name="field1">
+		<option value="1">One</option>
+		<option value="2">Two</option>
+		<option value="3">Three</option>
+	</select>
+	
+	<br /><br />
+	
+	<div class='selectr'>
+		<input type="hidden" value="3" name="sector" class="selectr_value"/>
+		<span class='selectr-display'>AAA</span>
+		<span class='selectr-btn'>&#9660;</span>
+		<ul class="selectr-list" >
+			<li class="selectr-option" data-value="0">What sector do you work in?</li>
+			<li class="selectr-option" data-value="IT">Information Technology</li>
+			<li class="selectr-option" data-value="branding">Branding</li>
+			<li class="selectr-option" data-value="consultancy">Consultancy</li>
+			<li class="selectr-option" data-value="strategy">Strategy</li>
+			<li class="selectr-option" data-value="big data">Big Data</li>
+			<li class="selectr-option" data-value="security">Security</li>
+			<li class="selectr-option" data-value="other">Other</li>
+		</ul>
+	</div>
+
+	
+</form>
+
+
+	
+</body>
+</html>
